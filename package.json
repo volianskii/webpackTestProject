@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "browser-sync start --server \"build/\" --no-ui --files \"source/**/*.js\""
+    "start": "browser-sync start --server \"build/\" --no-ui --files \"source/**/*.js\" \"build/*.html\" \"build/css/*.css\""
   },
   "author": "Dmitrii Volianskii",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.29.1",
+    "css-loader": "6.7.3",
+    "style-loader": "3.3.2",
     "webpack": "5.76.3",
     "webpack-cli": "5.0.1"
+  },
+  "dependencies": {
+    "nouislider": "15.7.0"
   }
 }
