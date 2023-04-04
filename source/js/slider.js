@@ -6,7 +6,7 @@ const sliderIndicator = document.querySelector('span');
 
 
 noUiSlider.create(slider, {
-  start: 60,
+  start: 70,
   connect: 'lower',//the color indicator is to the left
   range: {
     'min': 0,
@@ -16,17 +16,6 @@ noUiSlider.create(slider, {
   tooltips: [true]
 });
 
-/* const sliderValue =  slider.noUiSlider.get(true);
-
-async function sliderChange() {
-  sliderValue.addEventListener('change', () => {
-    alert('hello!');
-    sliderIndicator.innerHTML = slider.noUiSlider.get(true);
-    console.log(slider.value);
-  });
-};
-
-sliderChange(); */
 
 slider.noUiSlider.on('update', (_, handle, unencoded) => {
   sliderIndicator.innerHTML = unencoded[handle];

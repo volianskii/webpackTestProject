@@ -1,5 +1,6 @@
-/* import './validation.js'; */
+import './validation.js';
 import './slider.js';
+import './render-html.js';//module that renders additional html code
 
 console.log('main.js is connected');
 
