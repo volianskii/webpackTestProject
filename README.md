@@ -11,3 +11,5 @@ Modules:
 Run:
 npm run start -> starts browsersync that creates a local server. If any html, css or js file is changed the browser is going to be reloaded.
 npm run build -- --watch (in different terminal) -> starts webpack. Main.js file is converted to main.bundle and main.bundle.map files. -- --watch makes sure that these files are updated if any .js file is changed.
+
+css-loader and style-loader packages are required for applying noUiSlider styles.

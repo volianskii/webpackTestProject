@@ -12,6 +12,8 @@
   "devDependencies": {
     "browser-sync": "^2.29.1",
     "css-loader": "6.7.3",
+    "eslint": "^8.37.0",
+    "eslint-config-htmlacademy": "^9.0.0",
     "style-loader": "3.3.2",
     "webpack": "5.76.3",
     "webpack-cli": "5.0.1"
